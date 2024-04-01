@@ -106,8 +106,9 @@ bin/console doctrine:schema:update --force
     ```
 
 3. Update your schema (or use a migration):
-
-        $ bin/console doctrine:schema:update --force
+```bash
+bin/console doctrine:schema:update --force
+```
 
 ## Form Type
 
