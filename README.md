@@ -17,9 +17,9 @@ referer URLs. When a redirect is created or updated, 404 records that match it's
 ## Installation
 
 1. Install with composer:
-
-        $ composer require zenstruck/redirect-bundle
-
+```bash
+composer require zenstruck/redirect-bundle
+```
 2. Enable the bundle:
    This Step is only needed if you are not using [Symfony Flex](https://symfony.com/doc/current/setup/flex.html).
 
@@ -69,9 +69,9 @@ referer URLs. When a redirect is created or updated, 404 records that match it's
     ```
 
 3. Update your schema (or use a migration):
-
-        $ bin/console doctrine:schema:update --force
-
+```bash
+bin/console doctrine:schema:update --force
+```
 
 ### NotFound
 
